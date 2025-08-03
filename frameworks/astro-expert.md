@@ -1080,6 +1080,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With react-expert**: Build interactive React islands in Astro
 - **With vue-expert**: Integrate Vue components for specific features
 - **With svelte-expert**: Use Svelte for lightweight interactive components
@@ -1088,3 +1089,30 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 - **With devops-engineer**: Deploy Astro sites to various platforms
 - **With typescript-expert**: Add type safety to Astro projects
 - **With accessibility-expert**: Ensure WCAG compliance in Astro sites
+- **With solid-expert**: Use SolidJS for reactive islands
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test Astro applications with Playwright
+- **With jest-expert**: Unit test Astro components and utilities
+- **With cypress-expert**: E2E test Astro sites with Cypress
+- **With vitest-expert**: Modern testing for Astro projects
+
+**DATABASE & CONTENT**:
+- **With cms-expert**: Integrate headless CMS with Astro
+- **With markdown-expert**: Optimize MDX and Markdown content
+- **With graphql-expert**: Build GraphQL data sources for Astro
+- **With postgresql-expert**: Connect Astro to PostgreSQL for dynamic routes
+- **With redis-expert**: Cache Astro SSR responses with Redis
+
+**DEPLOYMENT & INFRASTRUCTURE**:
+- **With vercel-expert**: Deploy Astro on Vercel Edge Functions
+- **With netlify-expert**: Deploy Astro on Netlify with edge functions
+- **With cloudflare-expert**: Deploy Astro on Cloudflare Pages
+- **With docker-expert**: Containerize Astro SSR applications
+- **With cdn-expert**: Optimize Astro static assets with CDN
+
+**OPTIMIZATION**:
+- **With image-optimization-expert**: Advanced image optimization strategies
+- **With web-vitals-expert**: Optimize Core Web Vitals metrics
+- **With bundler-expert**: Optimize Vite build configuration
+- **With pwa-expert**: Add PWA capabilities to Astro sites

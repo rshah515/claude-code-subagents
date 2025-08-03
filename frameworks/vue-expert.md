@@ -693,6 +693,7 @@ async function testVueReactivity() {
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With architect**: Designing component architecture and state management patterns
 - **With typescript-expert**: TypeScript configuration and advanced typing for Vue
 - **With test-automator**: Testing Vue components with Vitest and Vue Test Utils
@@ -700,3 +701,26 @@ async function testVueReactivity() {
 - **With devops-engineer**: Setting up CI/CD for Nuxt.js applications
 - **With security-auditor**: Implementing CSP and XSS protection in Vue apps
 - **With ui-components-expert**: Implementing UI component libraries in Vue.js
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test Vue components with Playwright
+- **With jest-expert**: Unit test Vue components and Vuex stores with Jest
+- **With cypress-expert**: E2E test Vue applications with Cypress
+
+**DATABASE & CACHING**:
+- **With redis-expert**: Cache Vue application data with Redis
+- **With elasticsearch-expert**: Build Vue search components with Elasticsearch
+- **With postgresql-expert**: Connect Vue apps to PostgreSQL backends
+- **With mongodb-expert**: Integrate Vue with MongoDB data sources
+- **With neo4j-expert**: Create Vue graph visualization interfaces
+
+**AI/ML INTEGRATION**:
+- **With nlp-engineer**: Integrate NLP in Vue applications
+- **With computer-vision-expert**: Build Vue image processing components
+- **With reinforcement-learning-expert**: Create Vue RL dashboards
+
+**INFRASTRUCTURE**:
+- **With kubernetes-expert**: Deploy Vue/Nuxt apps on Kubernetes
+- **With docker-expert**: Containerize Vue applications
+- **With gitops-expert**: Implement GitOps for Vue deployments
+- **With ansible-expert**: Automate Vue deployment configurations

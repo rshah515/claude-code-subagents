@@ -33,6 +33,7 @@ comprehensive-agents/
 ├── vertical/              # Industry verticals (manufacturing, media)
 ├── operational/           # SRE, capacity planning, disaster recovery
 ├── web3/                  # Web3 and blockchain technologies
+├── mobile/                # Mobile development specialists
 └── industry/              # Industry-specific experts
     ├── fintech/           # Financial technology
     ├── healthcare/        # Healthcare and medical
@@ -78,7 +79,7 @@ You are a [role] specializing in [specific expertise areas].
 [List all relevant agents that would collaborate]
 ```
 
-## Completed Agents (133 total)
+## Completed Agents (137 total)
 
 ### ✅ Core (4/4)
 - architect.md - System design and architecture
@@ -107,7 +108,7 @@ You are a [role] specializing in [specific expertise areas].
 - php-expert.md
 - swift-expert.md
 
-### ✅ Infrastructure (9/9) ✅
+### ✅ Infrastructure (13/13) ✅
 - cloud-architect.md - AWS/GCP/Azure
 - kubernetes-expert.md - K8s orchestration
 - devops-engineer.md - CI/CD pipelines
@@ -117,6 +118,10 @@ You are a [role] specializing in [specific expertise areas].
 - aws-infrastructure-expert.md - Deep AWS expertise
 - azure-infrastructure-expert.md - Azure optimization
 - gcp-infrastructure-expert.md - GCP optimization
+- ansible-expert.md - Configuration management and automation
+- gitops-expert.md - ArgoCD and Flux for GitOps workflows
+- observability-expert.md - OpenTelemetry and distributed tracing
+- cicd-pipeline-expert.md - GitHub Actions, GitLab CI, Jenkins
 
 ### ✅ Quality (11/11) ✅
 - test-automator.md - Testing strategies
@@ -266,10 +271,14 @@ You are a [role] specializing in [specific expertise areas].
 - nft-platform-expert.md - NFT marketplaces and platforms
 - layer2-expert.md - Layer 2 scaling solutions
 
+### ✅ Mobile (2/2) 🆕
+- react-native-expert.md - React Native cross-platform development
+- flutter-expert.md - Flutter and Dart mobile development
+
 ## Project Status
 
-Phase 5 completed! The collection now includes:
-- 133 specialized agents covering the entire software development lifecycle
+Phase 6 completed! The collection now includes:
+- 137 specialized agents covering the entire software development lifecycle
 - Advanced AI/ML specialists (NLP, computer vision, reinforcement learning)
 - Security specializations (DevSecOps, cryptography, Zero Trust)
 - Operational excellence (SRE, capacity planning, disaster recovery)
@@ -288,13 +297,10 @@ Phase 5 completed! The collection now includes:
 
 ### Potential Future Expansions
 - Creative agents (graphic-designer, video-content-creator) - currently skipped per user request
-- Additional language specialists (Kotlin, Swift, Scala, PHP, Ruby, Elixir)
-- More framework specialists (NextJS, Remix, Svelte, FastAPI, NestJS)
-- Specialized development (compiler-engineer, embedded-systems, quantum-computing)
-- Additional testing specialists (Svelte, Remix, Astro, Qwik)
-- Platform specialists (salesforce, sap, sharepoint, servicenow)
-- More industry verticals (manufacturing, media, retail, logistics)
-- Advanced AI/ML (nlp-engineer, computer-vision, reinforcement-learning)
+- Platform specialists (salesforce, sap, sharepoint, servicenow) - currently skipped per user request
+- More industry verticals (manufacturing, media, retail, logistics) - currently skipped per user request
+- API specialists (rest-api, event-driven)
+- Frontend specialists (micro-frontend, design-system, state-management, css-architecture)
 
 ## Integration Guidelines
 
@@ -396,8 +402,16 @@ After completing each category of agents:
   - Database specialists: redis-expert, elasticsearch-expert, neo4j-expert, cassandra-expert
 - **Phase 5 Completed**: Added 4 new framework specialists
   - Modern frameworks: svelte-expert, remix-expert, astro-expert, qwik-expert
-- Total agent count: 133 unique agents
-- Enhanced directory structure with 5 new categories
+- **Phase 6 Completed**: Added 6 new specialists
+  - Mobile development: react-native-expert, flutter-expert
+  - DevOps & Infrastructure: ansible-expert, gitops-expert, observability-expert, cicd-pipeline-expert
+- **Integration Updates**: Enhanced all agent integration sections
+  - Updated Core Agents (architect, code-reviewer, debugger, refactorer) with comprehensive cross-agent integrations
+  - Updated all Frontend Framework agents (React, Vue, Angular, Svelte, Remix, Astro, Qwik, Next.js, NestJS, FastAPI) with categorized integrations
+  - Added integration categories: Core Framework, Testing, Database & Caching, AI/ML, Infrastructure, Optimization
+  - Improved bidirectional references between related agents
+- Total agent count: 137 unique agents
+- Enhanced directory structure with 6 new categories (including mobile/)
 - Updated documentation and workflow patterns
 
 When continuing work on this project, consider adding agents from the "Potential Future Expansions" list or creating new specialized agents based on emerging needs.

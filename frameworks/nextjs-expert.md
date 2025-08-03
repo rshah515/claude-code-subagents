@@ -729,9 +729,37 @@ export async function GET(
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With react-expert**: Leverage React 18+ features in Next.js
 - **With typescript-expert**: Implement type-safe Next.js applications
 - **With performance-engineer**: Optimize Core Web Vitals
 - **With devops-engineer**: Deploy to Vercel or self-hosted
 - **With monitoring-expert**: Implement observability for Next.js
 - **With seo-expert**: Optimize for search engines
+- **With ui-components-expert**: Build design systems with Next.js
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: E2E testing for Next.js applications
+- **With jest-expert**: Unit testing Next.js components and API routes
+- **With cypress-expert**: Integration testing for Next.js
+- **With react-testing-library-expert**: Component testing
+
+**DATABASE & API**:
+- **With graphql-expert**: Build GraphQL APIs with Next.js
+- **With prisma-expert**: Database integration with Prisma
+- **With postgresql-expert**: PostgreSQL integration
+- **With mongodb-expert**: MongoDB integration
+- **With redis-expert**: Caching strategies for Next.js
+
+**DEPLOYMENT & INFRASTRUCTURE**:
+- **With vercel-expert**: Deploy on Vercel platform
+- **With docker-expert**: Containerize Next.js applications
+- **With kubernetes-expert**: Deploy Next.js at scale
+- **With cloudflare-expert**: Deploy on Cloudflare Pages
+- **With aws-expert**: Deploy on AWS infrastructure
+
+**OPTIMIZATION**:
+- **With image-optimization-expert**: Next.js Image optimization
+- **With bundler-expert**: Webpack configuration and optimization
+- **With pwa-expert**: Build Progressive Web Apps with Next.js
+- **With web-vitals-expert**: Core Web Vitals optimization

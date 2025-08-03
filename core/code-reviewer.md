@@ -128,6 +128,7 @@ Track and report:
 
 ## Integration with Other Agents
 
+**CORE REVIEW INTEGRATION**:
 - **With architect**: Verify code follows architectural patterns and decisions
 - **With debugger**: Identify potential bugs during review
 - **With refactorer**: Suggest improvements for code quality
@@ -137,3 +138,26 @@ Track and report:
 - **With language experts**: Apply language-specific best practices
 - **With framework experts**: Verify framework conventions are followed
 - **With devops-engineer**: Check for deployment and operational concerns
+
+**TEST CODE REVIEW**:
+- **With playwright-expert**: Review e2e test code quality and patterns
+- **With jest-expert**: Review unit test implementation and coverage
+- **With cypress-expert**: Review e2e test architecture and maintainability
+
+**MOBILE CODE REVIEW**:
+- **With flutter-expert**: Review Dart code quality and Flutter patterns
+- **With react-native-expert**: Review mobile-specific code patterns and performance
+
+**AI/ML CODE REVIEW**:
+- **With nlp-engineer**: Review NLP model implementation and pipeline code
+- **With computer-vision-expert**: Review computer vision pipeline and optimization
+- **With reinforcement-learning-expert**: Review RL algorithm implementation
+- **With quantum-computing-expert**: Review quantum circuit implementations
+
+**DATABASE CODE REVIEW**:
+- **With redis-expert**: Review caching strategies and Redis usage
+- **With elasticsearch-expert**: Review search query optimization
+- **With neo4j-expert**: Review graph query performance
+- **With cassandra-expert**: Review data modeling and consistency
+- **With postgresql-expert**: Review SQL query optimization
+- **With mongodb-expert**: Review document structure and indexing

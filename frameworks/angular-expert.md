@@ -931,6 +931,7 @@ async function testAngularMaterial() {
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With architect**: Designing scalable Angular application architecture
 - **With typescript-expert**: Advanced TypeScript patterns and strict mode configuration
 - **With test-automator**: Testing with Karma, Jasmine, and Angular Testing Library
@@ -938,3 +939,41 @@ async function testAngularMaterial() {
 - **With performance-engineer**: Bundle optimization and lazy loading strategies
 - **With security-auditor**: Implementing CSP, sanitization, and secure authentication
 - **With ui-components-expert**: Implementing UI component libraries in Angular
+- **With rxjs-expert**: Advanced RxJS patterns and reactive programming
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test Angular components with Playwright
+- **With jest-expert**: Unit test Angular services and components with Jest
+- **With cypress-expert**: E2E test Angular applications with Cypress
+- **With e2e-testing-expert**: Comprehensive E2E testing strategies for Angular
+
+**DATABASE & CACHING**:
+- **With redis-expert**: Cache Angular application data with Redis
+- **With elasticsearch-expert**: Build Angular search interfaces with Elasticsearch
+- **With postgresql-expert**: Connect Angular apps to PostgreSQL backends
+- **With mongodb-expert**: Integrate Angular with MongoDB data sources
+- **With neo4j-expert**: Create Angular graph visualization interfaces
+- **With cassandra-expert**: Build Angular dashboards for Cassandra data
+
+**AI/ML INTEGRATION**:
+- **With nlp-engineer**: Integrate NLP in Angular applications
+- **With computer-vision-expert**: Build Angular image processing components
+- **With reinforcement-learning-expert**: Create Angular RL dashboards
+- **With ml-engineer**: Integrate ML models in Angular applications
+
+**INFRASTRUCTURE**:
+- **With kubernetes-expert**: Deploy Angular apps on Kubernetes
+- **With docker-expert**: Containerize Angular applications
+- **With gitops-expert**: Implement GitOps for Angular deployments
+- **With ansible-expert**: Automate Angular deployment configurations
+- **With nginx-expert**: Configure NGINX for Angular production serving
+
+**MOBILE & CROSS-PLATFORM**:
+- **With ionic-expert**: Build hybrid mobile apps with Angular and Ionic
+- **With nativescript-expert**: Create native mobile apps with Angular
+- **With capacitor-expert**: Build cross-platform apps with Angular
+
+**STATE MANAGEMENT**:
+- **With ngrx-expert**: Implement complex state management with NgRx
+- **With akita-expert**: Alternative state management with Akita
+- **With state-management-expert**: Choose appropriate state solutions

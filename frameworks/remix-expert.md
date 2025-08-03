@@ -1131,6 +1131,7 @@ export async function getCachedPost(slug: string, fetcher: () => Promise<Post | 
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With typescript-expert**: Implement type-safe Remix applications
 - **With react-expert**: Build advanced React patterns in Remix
 - **With performance-engineer**: Optimize loading performance and caching
@@ -1139,3 +1140,30 @@ export async function getCachedPost(slug: string, fetcher: () => Promise<Post | 
 - **With database-architect**: Design efficient data loading strategies
 - **With seo-expert**: Implement SSR and meta tags for SEO
 - **With accessibility-expert**: Ensure forms and navigation are accessible
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test Remix applications with Playwright
+- **With jest-expert**: Unit test Remix loaders and actions
+- **With cypress-expert**: E2E test Remix applications
+- **With vitest-expert**: Modern testing for Remix projects
+
+**DATABASE & CACHING**:
+- **With redis-expert**: Cache Remix loader data with Redis
+- **With elasticsearch-expert**: Build Remix search features with Elasticsearch
+- **With postgresql-expert**: Connect Remix to PostgreSQL databases
+- **With mongodb-expert**: Integrate Remix with MongoDB
+- **With neo4j-expert**: Create graph-based Remix applications
+- **With prisma-expert**: Use Prisma ORM with Remix
+
+**AI/ML INTEGRATION**:
+- **With nlp-engineer**: Add NLP features to Remix applications
+- **With computer-vision-expert**: Handle image processing in Remix
+- **With ml-engineer**: Integrate ML models in Remix loaders
+
+**INFRASTRUCTURE**:
+- **With kubernetes-expert**: Deploy Remix apps on Kubernetes
+- **With docker-expert**: Containerize Remix applications
+- **With gitops-expert**: Implement GitOps for Remix deployments
+- **With cloudflare-expert**: Deploy Remix on Cloudflare Workers
+- **With vercel-expert**: Deploy Remix on Vercel
+- **With fly-expert**: Deploy Remix on Fly.io

@@ -1026,6 +1026,7 @@ async function testReactInteractions() {
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With typescript-expert**: Advanced TypeScript patterns in React
 - **With javascript-expert**: Core JavaScript concepts
 - **With test-automator**: React Testing Library best practices
@@ -1034,3 +1035,26 @@ async function testReactInteractions() {
 - **With devops-engineer**: Next.js deployment strategies
 - **With architect**: React application architecture
 - **With ui-components-expert**: Implementing UI component libraries in React
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test React components with Playwright component testing
+- **With jest-expert**: Implement React Testing Library patterns with Jest
+- **With cypress-expert**: E2E test React applications with Cypress
+
+**DATABASE & CACHING**:
+- **With redis-expert**: Implement React session management and caching strategies
+- **With elasticsearch-expert**: Build React search interfaces with Elasticsearch
+- **With postgresql-expert**: Connect React apps to PostgreSQL backends
+- **With mongodb-expert**: Integrate React with MongoDB data sources
+- **With neo4j-expert**: Build React graph visualization components
+
+**AI/ML INTEGRATION**:
+- **With nlp-engineer**: Integrate NLP features in React applications
+- **With computer-vision-expert**: Build computer vision React components
+- **With reinforcement-learning-expert**: Create RL training visualization interfaces
+
+**INFRASTRUCTURE**:
+- **With kubernetes-expert**: Deploy React apps on Kubernetes
+- **With docker-expert**: Containerize React applications
+- **With gitops-expert**: Implement GitOps deployments for React apps
+- **With cicd-pipeline-expert**: Set up React CI/CD pipelines

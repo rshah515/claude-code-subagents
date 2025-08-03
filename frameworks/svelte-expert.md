@@ -1070,6 +1070,7 @@ beforeEach(() => {
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With typescript-expert**: Add type safety to Svelte applications
 - **With performance-engineer**: Optimize bundle size and runtime performance
 - **With test-automator**: Implement comprehensive testing strategies
@@ -1078,3 +1079,31 @@ beforeEach(() => {
 - **With devops-engineer**: Set up CI/CD pipelines for SvelteKit apps
 - **With architect**: Design scalable SvelteKit application architectures
 - **With seo-expert**: Implement SEO best practices in SvelteKit
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test Svelte components and SvelteKit applications
+- **With jest-expert**: Unit test Svelte components with Jest
+- **With cypress-expert**: E2E test Svelte applications with Cypress
+- **With vitest-expert**: Modern testing with Vitest for Svelte projects
+
+**DATABASE & CACHING**:
+- **With redis-expert**: Cache SvelteKit server-side data with Redis
+- **With elasticsearch-expert**: Build Svelte search interfaces with Elasticsearch
+- **With postgresql-expert**: Connect SvelteKit to PostgreSQL backends
+- **With mongodb-expert**: Integrate SvelteKit with MongoDB data sources
+- **With neo4j-expert**: Create Svelte graph visualization components
+- **With prisma-expert**: Use Prisma ORM with SvelteKit applications
+
+**AI/ML INTEGRATION**:
+- **With nlp-engineer**: Integrate NLP features in Svelte applications
+- **With computer-vision-expert**: Build Svelte image processing components
+- **With reinforcement-learning-expert**: Create Svelte RL visualization interfaces
+- **With ml-engineer**: Integrate ML models in Svelte applications
+
+**INFRASTRUCTURE**:
+- **With kubernetes-expert**: Deploy SvelteKit apps on Kubernetes
+- **With docker-expert**: Containerize SvelteKit applications
+- **With gitops-expert**: Implement GitOps for SvelteKit deployments
+- **With ansible-expert**: Automate SvelteKit deployment configurations
+- **With vercel-expert**: Deploy SvelteKit apps on Vercel platform
+- **With cloudflare-expert**: Deploy SvelteKit on Cloudflare Pages

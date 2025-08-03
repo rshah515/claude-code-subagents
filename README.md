@@ -2,11 +2,11 @@
 
 A complete set of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to cover the entire software development lifecycle with domain-specific expertise.
 
-**Status: 133 agents completed** ✨
+**Status: 137 agents completed** ✨
 
 ## 🚀 Overview
 
-This collection contains 133 specialized subagents organized into categories, providing comprehensive coverage for:
+This collection contains 137 specialized subagents organized into categories, providing comprehensive coverage for:
 - Architecture and system design
 - Language-specific development (Python, Go, JavaScript, TypeScript, Rust, etc.)
 - Framework expertise (React, Vue, Django, Rails, etc.)
@@ -68,7 +68,7 @@ comprehensive-agents/
 │   ├── remix-expert.md     # Remix full-stack framework
 │   ├── astro-expert.md     # Astro static site builder
 │   └── qwik-expert.md      # Qwik resumable framework
-├── infrastructure/         # DevOps and cloud optimization ✅
+├── infrastructure/         # DevOps and cloud optimization (13) ✅
 │   ├── devops-engineer.md  # CI/CD and automation
 │   ├── cloud-architect.md  # AWS/GCP/Azure
 │   ├── kubernetes-expert.md # Container orchestration
@@ -77,7 +77,11 @@ comprehensive-agents/
 │   ├── cloud-cost-optimizer.md # Multi-cloud cost optimization
 │   ├── aws-infrastructure-expert.md # Deep AWS expertise
 │   ├── azure-infrastructure-expert.md # Azure optimization
-│   └── gcp-infrastructure-expert.md # GCP optimization
+│   ├── gcp-infrastructure-expert.md # GCP optimization
+│   ├── ansible-expert.md   # Configuration management and automation
+│   ├── gitops-expert.md    # GitOps with ArgoCD and Flux
+│   ├── observability-expert.md # OpenTelemetry and distributed tracing
+│   └── cicd-pipeline-expert.md # CI/CD pipeline design and optimization
 ├── data-ai/               # Data and AI/ML ✅
 │   ├── data-engineer.md    # Data pipelines
 │   ├── ml-engineer.md      # Machine learning
@@ -189,6 +193,9 @@ comprehensive-agents/
 │   ├── dao-expert.md      # Decentralized Autonomous Organizations
 │   ├── nft-platform-expert.md # NFT marketplaces and platforms
 │   └── layer2-expert.md   # Layer 2 scaling solutions
+├── mobile/                # Mobile development specialists (2) 🆕
+│   ├── react-native-expert.md # React Native cross-platform development
+│   └── flutter-expert.md   # Flutter and Dart mobile development
 ├── platform/              # Platform specialists (future)
 ├── vertical/              # Industry verticals (future)
 └── orchestrators/         # Multi-agent coordination
@@ -243,7 +250,7 @@ Specialized knowledge of popular frameworks:
 - **astro-expert** - Astro, partial hydration, component islands, multi-framework
 - **qwik-expert** - Qwik, resumability, fine-grained lazy loading, instant TTI
 
-### Infrastructure & DevOps
+### Infrastructure & DevOps (13 experts)
 Modern infrastructure and deployment:
 
 - **devops-engineer** - CI/CD, Docker, automation, GitOps workflows, GitHub CLI integration
@@ -255,6 +262,10 @@ Modern infrastructure and deployment:
 - **aws-infrastructure-expert** - Deep AWS services, Cost Explorer API, AWS CLI automation
 - **azure-infrastructure-expert** - Azure services, Cost Management API, Azure CLI
 - **gcp-infrastructure-expert** - GCP services, Cloud Billing API, gcloud CLI
+- **ansible-expert** - Configuration management, playbook development, role creation, automation
+- **gitops-expert** - ArgoCD, Flux, declarative deployments, Git-driven operations
+- **observability-expert** - OpenTelemetry, distributed tracing, metrics, log aggregation
+- **cicd-pipeline-expert** - GitHub Actions, GitLab CI, Jenkins, pipeline optimization
 
 ### Data & AI/ML
 Data engineering and machine learning:
@@ -310,6 +321,12 @@ Cross-industry technical expertise:
 - **dao-expert** - DAO governance, voting systems, treasury management
 - **nft-platform-expert** - NFT marketplaces, ERC-721/1155, royalty systems
 - **layer2-expert** - Optimistic/ZK rollups, state channels, L2 scaling
+
+### Mobile Development (2 experts) 🆕
+Cross-platform mobile development:
+
+- **react-native-expert** - React Native, native modules, performance optimization, platform-specific code
+- **flutter-expert** - Flutter, Dart, widget composition, platform channels, state management
 
 ### Industry Verticals 🆕
 Industry-specific expertise:
@@ -588,7 +605,16 @@ Agent system prompt and expertise...
 - 🔒 **Security**: Started security specializations with penetration testing
 - 🌐 **Web3 Expansion**: Added 4 Web3 specialists (IPFS, DAO, NFT platforms, Layer 2)
 - 🆕 **Framework Addition**: Added NestJS expert for enterprise Node.js applications
-- 📚 **Total Count**: 133 unique specialized agents
+- 📚 **Total Count**: 137 unique specialized agents
+- 📱 **Phase 6 Complete**: Added 6 new specialists
+  - **Mobile Development** (2):
+    - react-native-expert: React Native cross-platform mobile development
+    - flutter-expert: Flutter and Dart for high-performance mobile apps
+  - **DevOps & Infrastructure** (4):
+    - ansible-expert: Configuration management and infrastructure automation
+    - gitops-expert: ArgoCD and Flux for declarative deployments
+    - observability-expert: OpenTelemetry and distributed tracing
+    - cicd-pipeline-expert: GitHub Actions, GitLab CI, Jenkins pipelines
 - 🎯 **Phase 5 Complete**: Added 4 new framework specialists
   - svelte-expert: Svelte and SvelteKit for reactive web applications
   - remix-expert: Remix for full-stack web apps with progressive enhancement

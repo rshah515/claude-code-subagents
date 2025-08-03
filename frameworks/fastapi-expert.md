@@ -753,9 +753,38 @@ CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "-c", "gunicorn_conf.py"
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With python-expert**: Leverage Python best practices
 - **With database-architect**: Design efficient database schemas
 - **With api-documenter**: Generate comprehensive API documentation
 - **With devops-engineer**: Deploy FastAPI applications
 - **With monitoring-expert**: Implement observability
 - **With security-auditor**: Ensure API security best practices
+- **With pydantic-expert**: Advanced data validation patterns
+
+**TESTING INTEGRATION**:
+- **With pytest-expert**: Unit and integration testing with pytest
+- **With playwright-expert**: E2E testing for FastAPI applications
+- **With test-automator**: Comprehensive testing strategies
+- **With httpx-expert**: Async client testing
+
+**DATABASE & ORM**:
+- **With sqlalchemy-expert**: SQLAlchemy integration and patterns
+- **With postgresql-expert**: PostgreSQL optimization with asyncpg
+- **With mongodb-expert**: MongoDB integration with Motor
+- **With redis-expert**: Caching and session management
+- **With alembic-expert**: Database migrations
+- **With tortoise-expert**: Tortoise ORM integration
+
+**ASYNC & PERFORMANCE**:
+- **With asyncio-expert**: Advanced async patterns
+- **With celery-expert**: Background task processing
+- **With websocket-expert**: WebSocket implementation
+- **With performance-engineer**: API optimization
+
+**DEPLOYMENT & INFRASTRUCTURE**:
+- **With docker-expert**: Containerize FastAPI applications
+- **With kubernetes-expert**: Deploy on Kubernetes
+- **With nginx-expert**: Reverse proxy configuration
+- **With gunicorn-expert**: Production server setup
+- **With uvicorn-expert**: ASGI server optimization

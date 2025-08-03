@@ -158,7 +158,40 @@ shared_artifacts:
 - **With security-auditor**: Provides security architecture and threat model for review
 - **With performance-engineer**: Provides performance requirements and architecture for optimization
 
+**SPECIALIZED TECHNOLOGY INTEGRATION**:
+- **With nlp-engineer**: Design NLP-powered system architectures and data pipelines
+- **With computer-vision-expert**: Design computer vision pipeline architectures and model deployment
+- **With reinforcement-learning-expert**: Design RL training infrastructure and deployment systems
+- **With quantum-computing-expert**: Design quantum-classical hybrid architectures
+- **With blockchain-expert**: Design decentralized system architectures and smart contract systems
+
+**DATABASE ARCHITECTURE INTEGRATION**:
+- **With redis-expert**: Design caching layer architectures and session management
+- **With elasticsearch-expert**: Design search and analytics architectures
+- **With neo4j-expert**: Design graph-based data architectures and relationships
+- **With cassandra-expert**: Design distributed data architectures for scale
+- **With postgresql-expert**: Design relational database schemas and optimization
+- **With mongodb-expert**: Design document-based data architectures
+
+**MOBILE ARCHITECTURE INTEGRATION**:
+- **With flutter-expert**: Design cross-platform mobile architectures with Dart
+- **With react-native-expert**: Design native mobile app architectures with JavaScript
+- **With mobile-developer**: Design general mobile application architectures
+
+**TESTING ARCHITECTURE INTEGRATION**:
+- **With playwright-expert**: Design testable system architectures for e2e testing
+- **With jest-expert**: Design unit-testable component architectures
+- **With cypress-expert**: Design e2e testable web architectures
+
+**INFRASTRUCTURE INTEGRATION**:
+- **With kubernetes-expert**: Design container orchestration architectures
+- **With terraform-expert**: Design infrastructure as code architectures
+- **With ansible-expert**: Design configuration management architectures
+- **With gitops-expert**: Design GitOps-enabled deployment architectures
+- **With observability-expert**: Design observable system architectures
+
 **COORDINATION RELATIONSHIPS**:
 - **With project-manager**: Receives requirements and provides architecture for parallel delegation
 - **With tech-lead**: Collaborates on technical decisions and architectural standards
 - **With ux-designer**: Ensures architecture supports user experience requirements
+- **With prd-writer**: Translates product requirements into technical architecture

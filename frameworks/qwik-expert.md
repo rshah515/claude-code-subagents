@@ -1047,6 +1047,7 @@ test.describe('Products API', () => {
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With typescript-expert**: Implement type-safe Qwik applications
 - **With performance-engineer**: Optimize TTI and Core Web Vitals
 - **With react-expert**: Migrate React patterns to Qwik
@@ -1055,3 +1056,23 @@ test.describe('Products API', () => {
 - **With architect**: Design resumable application architectures
 - **With seo-expert**: Implement SSR/SSG for SEO optimization
 - **With accessibility-expert**: Ensure progressive enhancement and a11y
+
+**TESTING INTEGRATION**:
+- **With playwright-expert**: Test Qwik applications with Playwright
+- **With jest-expert**: Unit test Qwik components and functions
+- **With cypress-expert**: E2E test Qwik applications
+- **With vitest-expert**: Modern testing for Qwik projects
+
+**DATABASE & API**:
+- **With graphql-expert**: Build GraphQL APIs with Qwik
+- **With rest-api-expert**: Design RESTful APIs for Qwik
+- **With postgresql-expert**: Connect Qwik to PostgreSQL
+- **With mongodb-expert**: Integrate MongoDB with Qwik
+- **With redis-expert**: Cache Qwik server functions with Redis
+
+**DEPLOYMENT & INFRASTRUCTURE**:
+- **With cloudflare-expert**: Deploy Qwik on Cloudflare Workers
+- **With vercel-expert**: Deploy Qwik on Vercel Edge
+- **With docker-expert**: Containerize Qwik applications
+- **With kubernetes-expert**: Deploy Qwik at scale
+- **With edge-computing-expert**: Optimize for edge runtime

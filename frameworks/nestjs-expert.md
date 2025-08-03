@@ -1065,8 +1065,38 @@ export const configValidationSchema = Joi.object({
 
 ## Integration with Other Agents
 
+**CORE FRAMEWORK INTEGRATION**:
 - **With typescript-expert**: Leverage TypeScript features
 - **With nodejs-expert**: Node.js best practices
 - **With graphql-expert**: GraphQL implementation
-- **With testing-expert**: Comprehensive testing strategies
-- **With microservices-expert**: Distributed architecture patterns
+- **With test-automator**: Comprehensive testing strategies
+- **With architect**: Microservices and distributed architecture patterns
+- **With devops-engineer**: Deploy NestJS applications
+- **With security-auditor**: Implement security best practices
+
+**TESTING INTEGRATION**:
+- **With jest-expert**: Unit and integration testing with Jest
+- **With playwright-expert**: E2E testing for NestJS APIs
+- **With cypress-expert**: E2E testing for full-stack NestJS apps
+- **With supertest-expert**: API endpoint testing
+
+**DATABASE & ORM**:
+- **With postgresql-expert**: PostgreSQL integration with TypeORM/Prisma
+- **With mongodb-expert**: MongoDB integration with Mongoose
+- **With redis-expert**: Caching and session management
+- **With typeorm-expert**: Advanced TypeORM patterns
+- **With prisma-expert**: Prisma ORM integration
+- **With neo4j-expert**: Graph database integration
+
+**MESSAGING & EVENTS**:
+- **With rabbitmq-expert**: Message queue implementation
+- **With kafka-expert**: Event streaming with Kafka
+- **With event-driven-expert**: Event-driven architecture
+- **With websocket-expert**: Real-time communication
+
+**MICROSERVICES**:
+- **With grpc-expert**: gRPC microservices with NestJS
+- **With kubernetes-expert**: Deploy NestJS microservices
+- **With docker-expert**: Containerize NestJS applications
+- **With api-gateway-expert**: API gateway patterns
+- **With service-mesh-expert**: Service mesh integration

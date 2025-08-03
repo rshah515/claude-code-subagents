@@ -164,7 +164,33 @@ logger.debug("Variable state: {}", variable);
 
 ## Integration with Other Agents
 
+**CORE DEBUGGING WORKFLOW**:
 - **After code-reviewer**: Debug issues found in review
 - **Before test-automator**: Ensure fixes are properly tested
 - **With performance-engineer**: Debug performance issues
-- **With devops-troubleshooter**: Handle production issues
+- **With devops-engineer**: Handle production issues and deployment problems
+- **With architect**: Understand system design when debugging complex issues
+- **With refactorer**: Clean up code after debugging
+
+**TEST DEBUGGING**:
+- **With playwright-expert**: Debug e2e test failures and browser automation issues
+- **With jest-expert**: Debug unit test failures and mocking issues
+- **With cypress-expert**: Debug e2e test timeouts and flakiness
+
+**MOBILE DEBUGGING**:
+- **With flutter-expert**: Debug Flutter app performance and UI rendering issues
+- **With react-native-expert**: Debug native bridge and platform-specific issues
+
+**DATABASE DEBUGGING**:
+- **With elasticsearch-expert**: Debug search query performance and indexing issues
+- **With redis-expert**: Debug caching problems and session management issues
+- **With postgresql-expert**: Debug SQL query performance and deadlocks
+- **With mongodb-expert**: Debug document queries and replication issues
+- **With neo4j-expert**: Debug graph traversal performance
+- **With cassandra-expert**: Debug distributed data consistency issues
+
+**AI/ML DEBUGGING**:
+- **With nlp-engineer**: Debug NLP model accuracy and performance issues
+- **With computer-vision-expert**: Debug image processing pipelines and model inference
+- **With reinforcement-learning-expert**: Debug RL training convergence issues
+- **With mlops-engineer**: Debug ML pipeline failures and model deployment issues

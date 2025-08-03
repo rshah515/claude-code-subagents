@@ -196,7 +196,31 @@ type Service struct {
 
 ## Integration with Other Agents
 
+**CORE REFACTORING WORKFLOW**:
 - **After code-reviewer**: Address code quality issues
 - **Before test-automator**: Ensure refactored code is tested
 - **With architect**: Align with architectural goals
 - **After debugger**: Clean up after bug fixes
+- **With performance-engineer**: Refactor for performance optimization
+
+**MOBILE REFACTORING**:
+- **With flutter-expert**: Refactor Dart code and widget hierarchies
+- **With react-native-expert**: Refactor mobile component architecture and native modules
+
+**TEST REFACTORING**:
+- **With playwright-expert**: Refactor test code and page object models
+- **With jest-expert**: Refactor test suites and improve mocking strategies
+- **With cypress-expert**: Refactor e2e tests for maintainability
+
+**AI/ML REFACTORING**:
+- **With nlp-engineer**: Refactor NLP processing pipelines for efficiency
+- **With computer-vision-expert**: Refactor computer vision workflows and model serving
+- **With mlops-engineer**: Refactor ML pipelines for production readiness
+
+**DATABASE REFACTORING**:
+- **With redis-expert**: Refactor caching strategies and data structures
+- **With elasticsearch-expert**: Refactor search queries and index mappings
+- **With postgresql-expert**: Refactor SQL queries and schema design
+- **With mongodb-expert**: Refactor document structures and aggregation pipelines
+- **With neo4j-expert**: Refactor graph queries and data models
+- **With cassandra-expert**: Refactor data models for better partitioning
