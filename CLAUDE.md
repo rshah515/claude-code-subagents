@@ -79,7 +79,7 @@ You are a [role] specializing in [specific expertise areas].
 [List all relevant agents that would collaborate]
 ```
 
-## Completed Agents (137 total)
+## Completed Agents (142 total)
 
 ### ✅ Core (4/4)
 - architect.md - System design and architecture
@@ -194,12 +194,17 @@ You are a [role] specializing in [specific expertise areas].
 - growth-hacker.md - Growth experiments and viral loops
 - website-architect.md - Website strategy and information architecture
 
-### ✅ Marketing & Growth (5/5) 🆕
+### ✅ Marketing & Growth (10/10) 🆕
 - content-strategist.md - Content planning and strategy
 - seo-expert.md - Search engine optimization
 - copywriter.md - Sales copy and conversion
 - seo-strategist.md - Comprehensive SEO strategy and auditing
 - geo-strategist.md - Generative Engine Optimization for AI visibility
+- conversion-optimizer.md - A/B testing and funnel optimization
+- email-strategist.md - Email campaign planning and automation
+- email-copywriter.md - Email subject lines and body copy
+- email-designer.md - Responsive email templates and dark mode
+- email-deliverability-expert.md - Authentication and reputation management
 
 ### ✅ API Integration (3/3) 🆕
 - graphql-expert.md - GraphQL schemas and resolvers
@@ -277,8 +282,10 @@ You are a [role] specializing in [specific expertise areas].
 
 ## Project Status
 
-Phase 6 completed! The collection now includes:
-- 137 specialized agents covering the entire software development lifecycle
+Phase 7a completed! The collection now includes:
+- 142 specialized agents covering the entire software development lifecycle
+- Email marketing specialists (strategist, copywriter, designer, deliverability)
+- Conversion optimization expert for A/B testing and funnel optimization
 - Advanced AI/ML specialists (NLP, computer vision, reinforcement learning)
 - Security specializations (DevSecOps, cryptography, Zero Trust)
 - Operational excellence (SRE, capacity planning, disaster recovery)
@@ -409,8 +416,11 @@ After completing each category of agents:
   - Updated Core Agents (architect, code-reviewer, debugger, refactorer) with comprehensive cross-agent integrations
   - Updated all Frontend Framework agents (React, Vue, Angular, Svelte, Remix, Astro, Qwik, Next.js, NestJS, FastAPI) with categorized integrations
   - Added integration categories: Core Framework, Testing, Database & Caching, AI/ML, Infrastructure, Optimization
+- **Phase 7a Completed**: Added 5 new marketing and conversion specialists
+  - Email marketing: email-strategist, email-copywriter, email-designer, email-deliverability-expert
+  - Conversion optimization: conversion-optimizer for A/B testing and funnel optimization
   - Improved bidirectional references between related agents
-- Total agent count: 137 unique agents
+- Total agent count: 142 unique agents
 - Enhanced directory structure with 6 new categories (including mobile/)
 - Updated documentation and workflow patterns
 

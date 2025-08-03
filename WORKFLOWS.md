@@ -778,6 +778,12 @@ graph TD
 6. **technical-writer** creates documentation
 7. **devops-engineer** handles deployment
 8. **customer-success-manager** prepares onboarding
+9. **Email Marketing Campaign**:
+   - **email-strategist** creates automated onboarding sequences
+   - **email-copywriter** writes welcome series and nurture campaigns
+   - **email-designer** builds responsive email templates
+   - **email-deliverability-expert** ensures inbox placement
+   - **conversion-optimizer** A/B tests email variations
 
 ### 9. API Modernization Project
 
@@ -947,6 +953,10 @@ customer-success-manager → Customer Feedback → product-manager → Feature P
 - Conversion rate optimization
 - Content engagement rates
 - Lead quality scores
+- Email open rates
+- Click-through rates
+- Deliverability scores
+- A/B test results
 
 ### Technical Metrics
 - API response times
@@ -1221,9 +1231,70 @@ graph TD
 4. **Implementation** by frontend team
 5. **devops-engineer** handles deployment and CDN
 
-### 21. Security Penetration Testing
+### 21. Email Marketing Campaign Development
 
-**Scenario**: Comprehensive security assessment and hardening.
+**Scenario**: Building comprehensive email marketing campaign with automation.
+
+```mermaid
+graph TD
+    A[Email Campaign] --> B[email-strategist]
+    B --> C{PARALLEL DEVELOPMENT}
+    C --> D[email-copywriter]
+    C --> E[email-designer]
+    C --> F[email-deliverability-expert]
+    D --> G[Email Content]
+    E --> G
+    F --> H[Technical Setup]
+    G --> I[conversion-optimizer]
+    H --> I
+    I --> J[Campaign Launch]
+    J --> K[Performance Analysis]
+```
+
+**Process**:
+1. **email-strategist** creates segmentation and automation strategy
+2. **PARALLEL Development**:
+   - **email-copywriter** writes compelling subject lines and copy
+   - **email-designer** creates responsive, dark-mode compatible templates
+   - **email-deliverability-expert** sets up SPF/DKIM/DMARC
+3. **Email content** assembled with personalization
+4. **conversion-optimizer** implements A/B testing
+5. **Campaign launch** with monitoring
+6. **Performance analysis** and optimization
+
+### 22. Landing Page Conversion Optimization
+
+**Scenario**: Optimizing landing pages for maximum conversion.
+
+```mermaid
+graph TD
+    A[Landing Page] --> B[conversion-optimizer]
+    B --> C[User Analysis]
+    C --> D{PARALLEL OPTIMIZATION}
+    D --> E[copywriter]
+    D --> F[ux-designer]
+    D --> G[email-strategist]
+    E --> H[Copy Variations]
+    F --> H
+    G --> I[Email Follow-up]
+    H --> J[A/B Testing]
+    I --> J
+    J --> K[data-scientist]
+    K --> L[Implementation]
+```
+
+**Process**:
+1. **conversion-optimizer** analyzes current performance
+2. **User behavior analysis** with heatmaps and recordings
+3. **PARALLEL Optimization**:
+   - **copywriter** creates headline and CTA variations
+   - **ux-designer** optimizes layout and flow
+   - **email-strategist** creates follow-up sequences
+4. **A/B testing** implementation
+5. **data-scientist** analyzes results
+6. **Implementation** of winning variations
+
+### 23. Security Penetration Testing
 
 ```mermaid
 graph TD
@@ -1275,7 +1346,13 @@ security-penetration-tester → architect → developers → security-auditor
 ### Website Development Flow
 ```
 Strategy → Architecture → Design → Implementation → Optimization
-website-architect → ux-designer → developers → seo-expert
+website-architect → ux-designer → developers → seo-expert → conversion-optimizer
+```
+
+### Email Marketing Flow
+```
+Strategy → Content → Design → Deliverability → Optimization
+email-strategist → email-copywriter → email-designer → email-deliverability-expert → conversion-optimizer
 ```
 
 ## 📊 Phase 2 Metrics

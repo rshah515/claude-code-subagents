@@ -2,11 +2,11 @@
 
 A complete set of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to cover the entire software development lifecycle with domain-specific expertise.
 
-**Status: 137 agents completed** ✨
+**Status: 142 agents completed** ✨
 
 ## 🚀 Overview
 
-This collection contains 137 specialized subagents organized into categories, providing comprehensive coverage for:
+This collection contains 142 specialized subagents organized into categories, providing comprehensive coverage for:
 - Architecture and system design
 - Language-specific development (Python, Go, JavaScript, TypeScript, Rust, etc.)
 - Framework expertise (React, Vue, Django, Rails, etc.)
@@ -27,6 +27,7 @@ This collection contains 137 specialized subagents organized into categories, pr
 - Localization and internationalization
 - Security specializations and penetration testing
 - SEO and GEO (Generative Engine Optimization) for traditional and AI search
+- Email marketing strategy and implementation (new category)
 - Web3 and blockchain technologies (IPFS, DAOs, NFTs, Layer 2)
 - Testing frameworks and strategies (Playwright, Cypress, Jest)
 - Database specialists (Redis, Elasticsearch, Neo4j, Cassandra)
@@ -377,6 +378,15 @@ Marketing strategy and content creation:
 - **copywriter** - Sales copy, email campaigns, ad copy, conversion-focused writing
 - **seo-strategist** - Comprehensive SEO strategy, technical audits, Core Web Vitals
 - **geo-strategist** - Generative Engine Optimization for AI search visibility
+- **conversion-optimizer** - A/B testing, landing pages, funnel optimization, user behavior analysis
+
+#### Email Marketing (4 experts) 🆕
+Email marketing strategy and implementation:
+
+- **email-strategist** - Campaign planning, segmentation, automation flows, lifecycle marketing
+- **email-copywriter** - Subject lines, email body copy, CTAs, personalization messaging
+- **email-designer** - Responsive templates, dark mode, accessibility, email HTML/CSS
+- **email-deliverability-expert** - SPF/DKIM/DMARC, reputation management, list hygiene
 
 ### API Integration 🆕
 Modern API and real-time communication:

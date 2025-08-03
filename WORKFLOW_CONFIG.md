@@ -544,12 +544,25 @@ phases:
     execution: PARALLEL
     outputs: ["content-calendar", "keyword-strategy", "landing-pages"]
     
-  4_sales_enablement:
+  4_email_marketing:
+    coordinated_by: email-strategist
+    parallel_agents:
+      - email-copywriter: ["welcome-series", "onboarding-emails", "nurture-campaigns"]
+      - email-designer: ["responsive-templates", "dark-mode-support"]
+      - email-deliverability-expert: ["authentication-setup", "reputation-monitoring"]
+    outputs: ["email-automation", "campaign-templates", "deliverability-setup"]
+    
+  5_conversion_optimization:
+    agent: conversion-optimizer
+    dependencies: ["landing-pages", "email-campaigns"]
+    outputs: ["a-b-tests", "funnel-optimization", "performance-metrics"]
+    
+  6_sales_enablement:
     agents: [copywriter, technical-writer]
     execution: PARALLEL
-    outputs: ["sales-materials", "documentation", "email-campaigns"]
+    outputs: ["sales-materials", "documentation", "case-studies"]
     
-  5_technical_implementation:
+  7_technical_implementation:
     coordinated_by: project-manager
     parallel_agents:
       - backend-expert: ["api-development", "billing-integration"]
@@ -646,8 +659,14 @@ legal-compliance-expert → security-auditor → implementation → testing
 
 #### Marketing-Product-Engineering
 ```
-Market Research → Product Design → Development → Launch
-content-strategist → product-manager → engineers → growth-hacker
+Market Research → Product Design → Development → Launch → Optimization
+content-strategist → product-manager → engineers → growth-hacker → conversion-optimizer
+```
+
+#### Email Marketing Campaign
+```
+Strategy → Content → Design → Deliverability → Analysis
+email-strategist → email-copywriter → email-designer → email-deliverability-expert → conversion-optimizer
 ```
 
 #### Customer-Driven Development
@@ -854,4 +873,71 @@ phases:
   4_implementation:
     agents: [seo-implementation-expert, geo-implementation-expert]
     outputs: ["technical-implementation", "llms-txt-local", "monitoring-setup"]
+```
+
+### Email Marketing Automation Workflow
+**Request**: "Set up automated email marketing system with personalization"
+
+**Workflow**:
+```yaml
+workflow: email-marketing-automation
+phases:
+  1_strategy:
+    agent: email-strategist
+    outputs: ["segmentation-strategy", "automation-flows", "lifecycle-mapping"]
+    
+  2_content_development:
+    parallel_agents:
+      - email-copywriter: ["subject-lines", "email-series", "personalization-variables"]
+      - email-designer: ["responsive-templates", "dark-mode-versions", "interactive-elements"]
+    
+  3_technical_setup:
+    coordinated_by: email-deliverability-expert
+    parallel_tasks:
+      authentication:
+        - email-deliverability-expert: ["spf-dkim-dmarc", "ip-warming", "reputation-setup"]
+      integration:
+        - backend-expert: ["api-integration", "data-sync", "trigger-setup"]
+        
+  4_optimization:
+    agent: conversion-optimizer
+    dependencies: ["email-campaigns-live"]
+    outputs: ["a-b-tests", "subject-line-tests", "send-time-optimization"]
+    
+  5_monitoring:
+    agents: [email-deliverability-expert, analytics-expert]
+    outputs: ["deliverability-dashboard", "engagement-metrics", "conversion-tracking"]
+```
+
+### Landing Page Optimization Workflow
+**Request**: "Optimize landing pages for maximum conversion"
+
+**Workflow**:
+```yaml
+workflow: landing-page-optimization
+phases:
+  1_analysis:
+    agent: conversion-optimizer
+    outputs: ["current-performance", "bottleneck-identification", "user-behavior-analysis"]
+    
+  2_strategy:
+    agents: [conversion-optimizer, ux-designer, copywriter]
+    outputs: ["optimization-roadmap", "test-hypotheses", "content-variations"]
+    
+  3_implementation:
+    parallel_teams:
+      design_updates:
+        - ux-designer: ["wireframes", "interaction-patterns"]
+        - ui-components-expert: ["component-updates", "mobile-optimization"]
+      content_updates:
+        - copywriter: ["headline-variations", "cta-copy", "social-proof"]
+        - seo-implementation-expert: ["meta-optimization", "schema-updates"]
+        
+  4_testing:
+    agent: conversion-optimizer
+    outputs: ["a-b-test-setup", "multivariate-tests", "statistical-analysis"]
+    
+  5_email_integration:
+    agents: [email-strategist, email-designer]
+    outputs: ["follow-up-sequences", "abandonment-campaigns", "nurture-flows"]
 ```
