@@ -2,11 +2,11 @@
 
 A complete set of specialized AI subagents for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), designed to cover the entire software development lifecycle with domain-specific expertise.
 
-**Status: 142 agents completed** ✨
+**Status: 165 agents completed** ✨
 
 ## 🚀 Overview
 
-This collection contains 142 specialized subagents organized into categories, providing comprehensive coverage for:
+This collection contains 165 specialized subagents organized into categories, providing comprehensive coverage for:
 - Architecture and system design
 - Language-specific development (Python, Go, JavaScript, TypeScript, Rust, etc.)
 - Framework expertise (React, Vue, Django, Rails, etc.)
@@ -27,7 +27,7 @@ This collection contains 142 specialized subagents organized into categories, pr
 - Localization and internationalization
 - Security specializations and penetration testing
 - SEO and GEO (Generative Engine Optimization) for traditional and AI search
-- Email marketing strategy and implementation (new category)
+- Email marketing, content production, and PR communications (expanded marketing category)
 - Web3 and blockchain technologies (IPFS, DAOs, NFTs, Layer 2)
 - Testing frameworks and strategies (Playwright, Cypress, Jest)
 - Database specialists (Redis, Elasticsearch, Neo4j, Cassandra)
@@ -135,12 +135,39 @@ comprehensive-agents/
 │   ├── business-analyst.md # Requirements and process analysis
 │   ├── growth-hacker.md    # Growth experiments and viral loops
 │   └── website-architect.md # Website strategy and information architecture
-├── marketing/             # Marketing and content 🆕
-│   ├── content-strategist.md # Content planning and strategy
-│   ├── seo-expert.md       # Search engine optimization
-│   ├── copywriter.md       # Sales copy and messaging
-│   ├── seo-strategist.md   # SEO strategy and auditing
-│   └── geo-strategist.md   # Generative Engine Optimization
+├── marketing/             # Marketing and growth (30 specialists) 🆕
+│   ├── brand-growth/      # Brand and strategic marketing
+│   │   ├── brand-strategist.md        # Brand positioning and messaging
+│   │   ├── conversion-optimizer.md    # CRO and funnel optimization
+│   │   ├── influencer-partnership-expert.md # Influencer marketing
+│   │   ├── affiliate-marketing-expert.md # Affiliate program management
+│   │   └── viral-marketing-expert.md  # Viral loops and referral systems
+│   ├── digital-marketing/ # Digital channel specialists
+│   │   ├── ppc-specialist.md          # Paid advertising and PPC
+│   │   ├── social-ads-expert.md       # Social media advertising
+│   │   ├── video-ads-expert.md        # Video advertising and YouTube
+│   │   ├── content-strategist.md      # Content planning and strategy
+│   │   ├── seo-expert.md              # Search engine optimization
+│   │   ├── seo-strategist.md          # SEO strategy and auditing
+│   │   ├── geo-strategist.md          # Generative Engine Optimization
+│   │   └── social-strategist.md       # Social media strategy
+│   ├── email-marketing/   # Email marketing specialists
+│   │   ├── email-strategist.md        # Campaign planning and automation
+│   │   ├── email-copywriter.md        # Email copy and subject lines
+│   │   ├── email-designer.md          # Template design and coding
+│   │   └── email-deliverability-expert.md # Deliverability and reputation
+│   ├── content-production/ # Content creation experts
+│   │   ├── podcast-creator.md         # Podcast strategy and production
+│   │   ├── copywriter-specialist.md   # Persuasive copywriting
+│   │   └── content-editor.md          # Editorial and content optimization
+│   ├── marketing-technology/ # MarTech stack management
+│   │   ├── marketing-automation-expert.md # Automation workflows
+│   │   ├── crm-specialist.md          # CRM systems and processes
+│   │   └── martech-stack-architect.md # Technology integration
+│   └── pr-communications/ # Public relations and communications
+│       ├── pr-strategist.md           # Media relations and reputation
+│       ├── crisis-communication-expert.md # Crisis response
+│       └── corporate-communications-specialist.md # Internal communications
 ├── api-integration/       # API and integration specialists 🆕
 │   ├── graphql-expert.md   # GraphQL schemas and resolvers
 │   ├── grpc-expert.md      # gRPC and protocol buffers
@@ -370,23 +397,46 @@ Business strategy and product management:
 - **growth-hacker** - Growth experiments, viral loops, conversion optimization, A/B testing
 - **website-architect** - Website strategy, information architecture, user journeys
 
-### Marketing & Growth 🆕
-Marketing strategy and content creation:
+### Marketing & Growth (30 specialists) 🆕
+Comprehensive marketing expertise across all channels and strategies:
 
+#### Brand & Strategic Marketing (5 experts)
+- **brand-strategist** - Brand positioning, messaging architecture, market differentiation
+- **conversion-optimizer** - A/B testing, landing pages, funnel optimization, user behavior analysis
+- **influencer-partnership-expert** - Influencer marketing, creator partnerships, campaign management
+- **affiliate-marketing-expert** - Affiliate program management, partner recruitment, commission optimization
+- **viral-marketing-expert** - Viral loops, referral systems, growth hacking mechanics
+
+#### Digital Marketing (8 experts)
+- **ppc-specialist** - Paid advertising, Google Ads, budget optimization, campaign management
+- **social-ads-expert** - Facebook, Instagram, LinkedIn, TikTok advertising strategies
+- **video-ads-expert** - YouTube advertising, video marketing, creative optimization
 - **content-strategist** - Content planning, editorial calendars, brand voice, ROI measurement
 - **seo-expert** - Technical SEO, keyword research, link building, search optimization
-- **copywriter** - Sales copy, email campaigns, ad copy, conversion-focused writing
 - **seo-strategist** - Comprehensive SEO strategy, technical audits, Core Web Vitals
 - **geo-strategist** - Generative Engine Optimization for AI search visibility
-- **conversion-optimizer** - A/B testing, landing pages, funnel optimization, user behavior analysis
+- **social-strategist** - Social media strategy, community building, engagement optimization
 
-#### Email Marketing (4 experts) 🆕
-Email marketing strategy and implementation:
-
+#### Email Marketing (4 experts)
 - **email-strategist** - Campaign planning, segmentation, automation flows, lifecycle marketing
 - **email-copywriter** - Subject lines, email body copy, CTAs, personalization messaging
 - **email-designer** - Responsive templates, dark mode, accessibility, email HTML/CSS
 - **email-deliverability-expert** - SPF/DKIM/DMARC, reputation management, list hygiene
+
+#### Content Production (3 experts)
+- **podcast-creator** - Podcast strategy, interview techniques, production workflows
+- **copywriter-specialist** - Persuasive copywriting, conversion psychology, sales messaging
+- **content-editor** - Editorial quality assurance, content optimization, style guides
+
+#### Marketing Technology (3 experts)
+- **marketing-automation-expert** - Workflow design, lead nurturing, behavioral triggers
+- **crm-specialist** - CRM strategy, sales pipeline optimization, customer data management
+- **martech-stack-architect** - Technology integration, platform selection, workflow optimization
+
+#### PR & Communications (3 experts)
+- **pr-strategist** - Media relations, reputation management, thought leadership
+- **crisis-communication-expert** - Crisis response, stakeholder communication, reputation recovery
+- **corporate-communications-specialist** - Internal communications, employee engagement, change management
 
 ### API Integration 🆕
 Modern API and real-time communication:
@@ -600,6 +650,17 @@ Agent system prompt and expertise...
 
 ## 📈 Recent Updates (January 2025)
 
+- 🚀 **Phase 7 Complete**: Added 30 new marketing specialists (7a-7g)
+  - **Brand & Strategic Marketing** (5): brand-strategist, conversion-optimizer, influencer-partnership-expert, affiliate-marketing-expert, viral-marketing-expert
+  - **Digital Marketing** (8): ppc-specialist, social-ads-expert, video-ads-expert, content-strategist, seo-expert, seo-strategist, geo-strategist, social-strategist
+  - **Email Marketing** (4): email-strategist, email-copywriter, email-designer, email-deliverability-expert
+  - **Content Production** (3): podcast-creator, copywriter-specialist, content-editor
+  - **Marketing Technology** (3): marketing-automation-expert, crm-specialist, martech-stack-architect
+  - **PR & Communications** (3): pr-strategist, crisis-communication-expert, corporate-communications-specialist
+- ✨ **Enhanced Agent Format**: Optimized prompt engineering with behavioral Communication Style sections
+- 📊 **Total Count**: 165 unique specialized agents (grew from 142 to 165)
+- 🎯 **Marketing Category Expansion**: From 5 to 35 agents covering complete marketing ecosystem
+
 - 🔍 **SEO/GEO Update**: Added 4 new agents for search engine and AI optimization
   - seo-strategist: Comprehensive SEO strategy and auditing
   - seo-implementation-expert: Technical SEO implementation  
@@ -669,7 +730,7 @@ To contribute new agents or improvements:
 
 ## 🎉 Features
 
-- **Complete Coverage**: 133 agents covering development, business, marketing, and operations
+- **Complete Coverage**: 165 agents covering development, business, marketing, and operations
 - **Deep Expertise**: Each agent has specialized knowledge
 - **Smart Routing**: Automatic agent selection based on context
 - **Parallel Execution**: 2-3x faster delivery through concurrent agent coordination
